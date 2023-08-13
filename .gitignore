@@ -1,0 +1,85 @@
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore node.js dependencies and cache
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore build and compiled files
+/build/
+/dist/
+/out/
+
+# Ignore logs and temp files
+logs/
+*.log
+*.swp
+
+# Ignore environment-specific settings
+.env
+
+# Ignore sensitive or local configuration files
+config.js
+config.local.js
+
+# Ignore generated files from static site generators or build tools
+# Add patterns for tools like Gatsby, Hugo, Jekyll, etc.
+
+# Ignore compiled CSS or Sass files
+*.css
+*.scss
+
+# Ignore package-lock files
+package-lock.json
+yarn.lock
+
+# Ignore editor configuration files
+.editorconfig
+
+# Ignore macOS system files
+.DS_Store
+Thumbs.db
+
+# Ignore backup files
+*~
+
+# Ignore cache directories
+.cache/
+
+# Ignore temporary files and directories
+*.tmp/
+.temp/
+.temp-*
+
+# Ignore compiled binaries or executables
+*.exe
+*.bin
+
+# Ignore sensitive information (API keys, credentials, etc.)
+secrets.json
+
+# Ignore files specific to your development environment
+# For example, if you're using Webpack, you might ignore webpack-generated files
+
+# Ignore database files
+*.db
+*.sqlite
+
+# Ignore Docker-related files
+Dockerfile
+docker-compose.yml
+
+# Ignore virtual environment folders
+venv/
+env/
+
+# Ignore coverage reports
+.coverage
+coverage/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
